@@ -1,21 +1,76 @@
-Shooting 04/18/16 04:35 PM W 129TH ST AND LENOX AVE Assault 04/18/16 09:01 AM 1300 BLOCK OF SAINT NICHOLAS AVE Robbery 04/18/16 09:36 AM  46-06 DITMARS BLVD 
-
-Robbery 04/18/16 02:28 PM 300 BLOCK OF UTICA AVE Robbery 04/18/16 02:23 PM 300 BLOCK OF UTICA AVE  Other 04/18/16 04:11 PM JONES ST & 2ND ST 
-
-
-Theft 04/18/16 10:08 AM 300 BLOCK OF HUGUENOT ST Vandalism 04/17/16 11:08 PM 00 BLOCK OF MOUNT JOY PL  Assault 04/18/16 06:50 PM 00 BLOCK OF ELK AVE 
-Arrest 04/18/16 02:52 PM  00 BLOCK OF GERADA LN Other  04/18/16 09:40 PM 500 BLOCK OF 5TH AVE  Theft 04/18/16 09:54 PM 00 BLOCK OF SKYVIEW LN Robbery 04/18/16 04:42 PM  LESLIE ST AND LYONS AVE Theft 04/05/16 11:39 PM RICHMOND ST 
-
-
-
-
-
-
- Theft 04/05/16 09:25 PM RICHMOND ST  
-
-
-
-
-
-Theft 04/15/16 05:30 PM  100 BLOCK OF
-N FRANKLIN ST 
+Shooting  04/18/16 04:35 PM                  W 129TH ST AND LENOX AVE           
+Assault   04/18/16 09:01 AM                  1300 BLOCK OF SAINT NICHOLAS AVE   
+Robbery   04/18/16 09:36 AM                  46-06 DITMARS BLVD                 
+Robbery   04/18/16 02:28 PM                  300 BLOCK OF UTICA AVE             
+Robbery   04/18/16 02:23 PM                  300 BLOCK OF UTICA AVE             
+Other     04/18/16 04:11 PM                  JONES ST & 2ND ST                  
+Theft     04/18/16 10:08 AM                  300 BLOCK OF HUGUENOT ST           
+Assault   04/18/16 06:50 PM                  00 BLOCK OF ELK AVE                
+Arrest    04/18/16 02:52 PM                  00 BLOCK OF GERADA LN              
+Other     04/18/16 09:40 PM                  500 BLOCK OF 5TH AVE               
+Theft     04/18/16 09:54 PM                  00 BLOCK OF SKYVIEW LN             
+Robbery   04/18/16 04:42 PM                  LESLIE ST AND LYONS AVE            
+Theft     04/05/16 11:39 PM                  RICHMOND ST                        
+Theft     04/05/16 09:25 PM                  RICHMOND ST                        
+Theft     04/17/16 01:36 PM                  1300 BLOCK OF 5TH AVE              
+Robbery   04/19/16 01:20 PM                  300 BLOCK OF E 9TH ST              
+Assault   04/19/16 01:27 AM                  2700 BLOCK OF UNIVERSITY AVE       
+Other     04/19/16 04:13 PM                  200 BLOCK OF SANDS ST              
+Shooting  04/19/16 10:52 PM                  800 BLOCK OF HANCOCK ST            
+Shooting  04/19/16 09:18 PM                  300 BLOCK OF MADISON ST            
+Other     04/19/16 08:44 PM                  200 BLOCK OF UNION AVE FL 2        
+Theft     04/19/16 10:04 PM                  00 BLOCK OF WINTHROP AVE           
+Arrest    04/19/16 01:35 PM                  00 BLOCK OF LIBRARY PLZ            
+Arrest    04/19/16 01:36 PM                  00 BLOCK OF LIBRARY PLZ            
+Arrest    04/19/16 01:31 PM                  00 BLOCK OF LIBRARY PLZ            
+Theft     04/19/16 03:19 PM                  200 BLOCK OF NORTH AVE             
+Other     04/19/16 06:43 PM                  NORTH AVE &                        
+Arrest    04/19/16 07:37 PM                  400 BLOCK OF NORTH AVE             
+Arrest    04/19/16 11:59 AM                  300 BLOCK OF MAIN ST               
+Other     04/19/16 06:18 PM                  00 BLOCK OF DAVENPORT AVE          
+Robbery   12/06/15 01:00 PM                  100 BLOCK OF MIDDLE NECK ROAD      
+Theft     04/15/16 10:00 PM                  400 BLOCK OF W 121ST ST            
+Burglary  04/12/16 02:00 AM                  100 BLOCK OF CLAREMONT AVE         
+Theft     04/11/16 07:00 PM                  1124-1130 AMSTERDAM AVE            
+Theft     03/30/16 07:00 PM                  100 BLOCK OF LA SALLE ST           
+Theft     04/11/16 11:00 AM                  2912-2918 BROADWAY                 
+Theft     04/13/16 08:00 PM                  400 BLOCK OF RIVERSIDE DR          
+Theft     04/17/16 10:00 PM                  1000 BLOCK OF AMSTERDAM AVE        
+Theft     04/12/16 09:00 PM                  00 BLOCK OF OLD BROADWAY           
+Theft     04/11/16 04:00 PM                  400-410 DR MARTIN LUTHER KING JR BL
+Theft     04/17/16 02:00 PM                  400-410 DR MARTIN LUTHER KING JR BL
+Assault   04/13/16 05:00 AM                  400-410 DR MARTIN LUTHER KING JR BL
+Theft     04/15/16 08:00 PM                  300 BLOCK OF MANHATTAN AVE         
+Theft     04/14/16 08:00 PM                  2800 BLOCK OF BROADWAY             
+Theft     04/14/16 10:00 PM                  2800 BLOCK OF BROADWAY             
+Theft     04/14/16 12:00 AM                  300 BLOCK OF W 122ND ST            
+Theft     04/15/16 11:00 AM                  500 BLOCK OF W 111TH ST            
+Assault   04/17/16 05:00 PM                  2100 BLOCK OF FREDERICK DOUGLASS BL
+Theft     04/13/16 03:00 PM                  2100 BLOCK OF FREDERICK DOUGLASS BL
+Theft     04/12/16 02:00 AM                  200 BLOCK OF ST NICHOLAS AVE       
+Assault   04/17/16 10:00 AM                  2200 BLOCK OF FREDERICK DOUGLASS BL
+Assault   04/07/16 01:00 PM                  N/A                                
+Theft     04/01/16 01:00 PM                  2100 BLOCK OF FREDERICK DOUGLASS BL
+Robbery   04/13/16 05:00 AM                  2000 BLOCK OF FREDERICK DOUGLASS BL
+Theft     04/11/16 01:00 AM                  300 BLOCK OF W 125TH ST            
+Assault   04/12/16 03:00 PM                  600 BLOCK OF W 131ST ST            
+Assault   04/17/16 12:00 AM                  2200 BLOCK OF FREDERICK DOUGLASS BL
+Theft     04/16/16 06:00 PM                  100 BLOCK OF ST NICHOLAS AVE       
+Theft     04/17/16 01:00 AM                  2300 BLOCK OF FREDERICK DOUGLASS BL
+Assault   04/17/16 12:00 AM                  900 BLOCK OF COLUMBUS AVE          
+Theft     04/12/16 03:00 PM                  100 BLOCK OF W 107TH ST            
+Theft     04/13/16 01:00 AM                  200 BLOCK OF W 125TH ST            
+Theft     04/10/16 09:00 AM                  200 BLOCK OF W 125TH ST            
+Assault   04/16/16 11:00 AM                  200 BLOCK OF W 125TH ST            
+Theft     04/15/16 08:00 PM                  200 BLOCK OF W 125TH ST            
+Robbery   04/15/16 07:00 PM                  200 BLOCK OF W 125TH ST            
+Shooting  04/14/16 07:00 PM                  173-199 W 115TH ST                 
+Robbery   04/14/16 08:00 PM                  173-199 W 115TH ST                 
+Burglary  04/15/16 02:00 PM                  1900 BLOCK OF ADAM CLAYTON POWELL J
+Assault   04/13/16 11:00 PM                  124-198 W 114TH ST                 
+Assault   04/16/16 01:00 PM                  1400 BLOCK OF AMSTERDAM AVE        
+Theft     04/12/16 02:00 PM                  N/A                                
+Robbery   04/16/16 03:00 AM                  142-198 W 112TH ST                 
+Theft     04/12/16 08:00 PM                  100 BLOCK OF W 121ST ST            
+Theft     04/13/16 03:00 PM                  100 BLOCK OF W 121ST ST            
+Assault   04/12/16 06:00 AM                  1810-1828 ADAM CLAYTON POWELL JR BL
