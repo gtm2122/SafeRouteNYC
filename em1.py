@@ -2,18 +2,34 @@ import imaplib
 import numpy
 import email
 import re
+import os
 from sys import argv
+from mqp import togps
 crimes = ["Robbery","Theft","Assault","Other","Arrest","Vandalism","Shooting","Burglary","Arson"]
-cl4 = open('mess_clean4.txt','a')
+space=["                 ","   ","  "]
+cl4 = open('mess_clean4.txt','r')
 #target =open('mess_clean1.txt','a')
-cl2 = open('mess_clean2.txt','a')
+#cla = open('numlines.txt','w')
+lines= cl4.readlines()
+numlines=len(lines)
+cl4.close()
+cl4 = open('mess_clean4.txt','a')
+####
 #cl3 = open('mess_clean3.txt','a')
 M = imaplib.IMAP4_SSL('imap.gmail.com',993)
 M.login('abgtm2122@gmail.com','gtmab2122')
 M.select()
-
+cl5= open('mailnum.txt','r')
+start = cl5.read()
+print start
+cl5.close()
 typ,data = M.uid('search',None,'ALL')
-for num in data[0].split():
+#cl5= open('mailnum.txt','w')
+#print data[0].split()[-1]
+
+
+
+for num in (start,data[0].split()[-1]):
 	idx_crime=[]
 	
 	t,d = M.fetch(num,'(RFC822)')
@@ -47,15 +63,51 @@ for num in data[0].split():
 				inter_str=inter_str.replace('\r','')
 				inter_str=inter_str.replace('\n','')
 				idx_http = inter_str.find("http") -10
+				inter_str=inter_str[0:idx_http]
 				#print idx_http
-				print inter_str[0:idx_http]
+				ptest=list(inter_str)
+				#for j in space:
+				#	for i in re.finditer(j,inter_str):
+				#		count = 0
+				#		for t in range(i.start(),i.end()):
+							#ptest=list(inter_str)
+				#			ptest[t]=''
+				#			count+=1
+						#ptest[i.end()-count]=','
+				#ptest=ptest.replace(',','')
+				#print ptest
+				ptest=''.join(ptest)
+				#ptest=ptest.replace(',','')
+				print ptest
+				idx_http = inter_str.find("http") -10
 				
-				cl4.write(inter_str[0:idx_http]+'\r'+'\n')
-										
-cl4.close()	
-								
-			
+				
+					
+				cl4.write(ptest[0:idx_http])
+				cl4.write('\r'+'\n')
+cl5=open('mailnum.txt','w')	
+cl5.write(data[0].split()[-1])
+togps(numlines)
+cl5.close()
+cl4.close()
+#cl4=open('mess_clean4.txt','r')
+
+
+
+
 '''
+for line in cl4:
+	k,v=line.strip().split('=')
+	ans[k.strip()]=v.strip()
+cl5 = open('mess_clean5.txt','a')
+cl5.write(ans)
+cl5.close()
+'''	
+'''										
+cl4.close()	
+os.remove("mess_clean2.txt")							
+			
+
 t,d = M.fetch(5,'(RFC822)')
 print t
 mess=email.message_from_string(d[0][1])
@@ -66,3 +118,6 @@ print mess['From']
 '''
 M.close()
 M.logout()
+
+
+
