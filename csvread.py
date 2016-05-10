@@ -42,6 +42,11 @@ for idx,line in enumerate(file):
 	cl.write(line[s+15:line.find("\n")-1]+"\n")
 	
 print idx
+file.close()
+cl.close()
+file = open('./nlines.txt','w')
+file.write(str(idx))
+file.close()
 '''
 '''
 file2 = open('./nlines.txt','w')
@@ -54,15 +59,19 @@ file.close()
 '''
 
 
-file1=open("./nlines.txt",'rw+')
+file1=open("./nlines.txt",'r')
 file2=open("./crime_gps.txt",'r')
 cl=open("./coord.txt",'a')
 t= int(file1.readlines()[0])
-#print t
-v = len(file2.readlines()[0])
+print t
+v = len(file2.readlines())
+print v
 #file1.close()
+#file2.close()
 
-#file1=open("./nlines.txt",'a')
+#file1.close()
+file1.close()
+file1=open("./nlines.txt",'w')
 #cl1=open("./coord.txt",'a')
 for ind,line in enumerate(file2):
 	if ind<v and ind>=t :
