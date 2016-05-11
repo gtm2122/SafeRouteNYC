@@ -9,10 +9,10 @@ def con_gps(address):
 #Con_sec = 'dI6pXbJaFu6pmrie'
 	mapq.key(Con_key)#,Con_sec)
 	gps=mapq.geocode(address)['displayLatLng']
-	return int( gps['lat']),int(gps['lng'])
+	return float( gps['lat']),int(gps['lng'])
 
 #Origin
-address1="Columbia University,New York,New York"
+address1="Columbus Ave,New York,New York"
 address2="503W Seminary Row,New York,New York"
 
 latitude1,longitude1 = con_gps(address1)
@@ -30,10 +30,10 @@ def calc_midpt_radius(latitude1, longitude1, latitude2, longitude2):
     Lat2 = (latitude2)*(np.math.pi/180.0)
     Long2 = (longitude2)*(np.math.pi/180.0)
     
-    dist = 2.0*earth_radius*np.arcsin(np.math.sin(np.power(np.math.sin((Lat2 - Lat1)),2.0)+np.math.cos(Lat1)*np.math.cos(Lat2)*np.power(np.math.sin((Long2 - Long1)),2.0)))
+    dist = 2.0*earth_radius*np.arcsin(np.sqrt(np.power(np.math.sin((Lat2 - Lat1)/2.0),2.0)+np.math.cos(Lat1)*np.math.cos(Lat2)*np.power(np.math.sin((Long2 - Long1)/2.0),2.0)))
     #dis = np.sqrt((Lat1-Lat2)**2 +(Long1-Long2)**2)
     radius = dist/2.0
-    radius = radius+100.0
+    #radius = radius+100.0
     
     mid_lat = (latitude1+latitude2)/2.0
     mid_long = (longitude1+longitude2)/2.0
