@@ -26,10 +26,6 @@ s_loc[-1,0]=lat2
 s_loc[-1,1]=long2
 #print s_loc
 
-'''
-gauss=np.genfromtxt("./GMM.txt",delimiter=',',dtype=float)
-'''
-
 w1=0.514089518096
 m1=[40.6821198178,-73.9067822519]
 s1=[[ 0.00240385,  0.00165191],
@@ -89,14 +85,7 @@ for locs in s_loc:
 		if d[i,j]==0:
 			d[i,j]=np.nan
 	i+=1
-	#print d
-	'''
-	temp_idx=np.argsort(d[i,:])[0:3]
-	#print temp_idx
-#	idx.append(np.argmin(g[temp_idx]))
-#	print idx
-	'''
-
+	
 #print d
 i=0
 done=[]
@@ -113,24 +102,6 @@ for j in range(0,num):
 
 #print d3
 #print g3
-'''
-while (i <num-1):
-	done.append(i)
-	x=np.argsort(d[i,:])[0:3]
-	g3 = np.argmin(g[x])
-	
-	#d[i,y]=np.nan
-	#d[y,i]=np.nan
-	print d
-	#print i	
-	
-	print "appended=",i				
-	idx.append(i)
-	
-		
-
-print idx
-'''
 
 def checkPath(path_list, dist_list):
 	l = np.argsort(dist_list)[0]
@@ -148,7 +119,7 @@ path=[]
 
 for M in g3:
 	path=checkPath(path,M)	
-print path
+#print path
 
 idx=[]
 for m in path:
@@ -159,15 +130,15 @@ for m in path:
 	
 
 
-print s_loc[idx]
+#print s_loc[idx]
 
-res = open(".\results.txt",'w')
+res = open("./results.txt",'w')
 #res.write(str(lat1)+","+str(long1))
 
 for i in idx:
 	res.write(str(s_loc[i,0])+","+str(s_loc[i,1])+"\n")
 res.write(str(lat2)+","+str(long2)+"\n")
-
+res.close()
 '''
 
 
